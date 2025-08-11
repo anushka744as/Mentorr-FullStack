@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-field {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e5e7eb; /* Light gray */
+    border-radius: 0.5rem; /* Rounded corners */
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #6366f1; /* Indigo border on focus */
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3); /* Indigo shadow */
+  }
+  
+  .text-gradient {
+    background: -webkit-linear-gradient(#6366f1, #9333ea); /* Indigo to purple */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* For better input styling */
+  .input-field {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    transition: border-color 0.3s;
+}
+.input-field:focus {
+    border-color: #4f46e5; /* Focus color */
+    outline: none;
+}
+
+*{
+  font-family: Outfit;
+}
+  
+/* Custom class to hide scrollbars */
+.hide-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+  
